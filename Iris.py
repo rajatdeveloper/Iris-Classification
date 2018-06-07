@@ -1,4 +1,4 @@
-"""Project - Computer Vision that creates live sketch.
+"""Project - Predict Salary based on Position.
    Rajat Singhal : singhal.rajat97@gmail.com
    B.Tech 4th Semester, Computer Science & Engineering"""
 

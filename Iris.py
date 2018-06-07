@@ -39,5 +39,5 @@ X=np.append(arr = np.ones((150,1)).astype(int),values = X,axis =1)
 X_opt = X[ : , [0,2,3,4]]
 regressor_OLS = sm.OLS(endog = y,exog = X_opt).fit()
 print(regressor_OLS.summary())
-#Result: removing 1 row as p>sl(0.5) dosent effect result too much
+#Result: removing 1st coloumn as p>sl(0.5) dosent effect result too much
 """
